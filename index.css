@@ -28,9 +28,14 @@ html, body{
 .navContainer > div {
     width: 10rem;
     height: 5rem;
+    margin: 1rem;
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.logo {
+    flex-grow: 1;
 }
 
 .navContainer {
@@ -38,10 +43,6 @@ html, body{
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
-}
-
-.navContainer:nth-of-type(1) {
-    align-self: flex-start;
 }
 
 .navContainer a {
