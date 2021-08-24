@@ -1,0 +1,136 @@
+html, body{
+    box-sizing: border-box;
+    font-family: 'Fira Sans';
+    padding: 0;
+    margin: 0;
+}
+
+.heading {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-end;
+    width: 100vw;
+    height: 10rem;
+}
+
+.mainNav {
+    float: inline-start;
+}
+
+.mainContent {
+    margin: 1rem;
+}
+
+.navContainer > div {
+    width: 10rem;
+    height: 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.navContainer:nth-of-type(1) {
+    align-self: flex-start;
+}
+
+.mainContent {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.statusBar {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 2rem;
+}
+
+.statusLabel {
+    align-self: flex-start;
+}
+
+.statusBox {
+    border-radius: 15px;
+    border: 1px solid rgb(196, 192, 192);
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.statusBox > div {
+    width: 40vw;
+    height: 12vh;
+}
+
+.statusBox:nth-of-type(3) {
+    align-self: flex-end;
+}
+
+.imgBack {
+    background-color: blue;
+    width: 1rem;
+    border-radius: 40px;
+}
+
+.imgBack > img {
+    width: fit-content;
+    height: fit-content;
+}
+
+.courseOptions {
+    display: grid;
+    grid-template-columns: 2fr 2fr 2fr 2fr;
+    grid-template-rows: 4fr 4fr;
+}
+
+.course {
+    width: 11rem;
+    height: 12rem;
+    border-radius: 15px;
+    box-shadow: 0px 5px rgb(196, 192, 192);
+    border: 1px solid lightgray;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    margin: 1rem;
+}
+
+.course:hover {
+    position:relative;
+    bottom: 2px;
+    box-shadow: 0px 7px rgb(196, 192, 192);
+    cursor: pointer;
+}
+
+.course:active {
+    position: relative;
+    bottom: -5px;
+    box-shadow: none;
+}
+
+.course img {
+    width: 5rem;
+    height: 5rem;
+    border-radius: 40px;
+}
+
+.course {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+}
