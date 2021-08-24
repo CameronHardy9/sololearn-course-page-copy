@@ -41,6 +41,11 @@ html, body{
     align-self: flex-start;
 }
 
+.navContainer a {
+    text-decoration: none;
+    color: rgb(44, 44, 44);
+}
+
 .mainContent {
     display: flex;
     flex-direction: column;
